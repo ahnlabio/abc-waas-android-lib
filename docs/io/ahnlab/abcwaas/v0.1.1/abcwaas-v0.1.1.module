@@ -24,13 +24,6 @@
       },
       "dependencies": [
         {
-          "group": "io.ahnlab",
-          "module": "abcmpc",
-          "version": {
-            "requires": "v0.1.0"
-          }
-        },
-        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
@@ -92,13 +85,6 @@
           "module": "kotlinx-serialization-json",
           "version": {
             "requires": "1.6.0"
-          }
-        },
-        {
-          "group": "io.ahnlab",
-          "module": "abcmpc",
-          "version": {
-            "requires": "v0.1.0"
           }
         },
         {
