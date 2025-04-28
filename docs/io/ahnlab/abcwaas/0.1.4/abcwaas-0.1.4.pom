@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.ahnlab</groupId>
   <artifactId>abcwaas</artifactId>
-  <version>v0.1.3</version>
+  <version>0.1.4</version>
   <packaging>aar</packaging>
   <name>ABC WaaS Android SDK</name>
   <description>Android SDK for ABC WaaS</description>
@@ -24,7 +24,7 @@
     <dependency>
       <groupId>io.ahnlab</groupId>
       <artifactId>abcmpc</artifactId>
-      <version>v0.1.1</version>
+      <version>0.1.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
