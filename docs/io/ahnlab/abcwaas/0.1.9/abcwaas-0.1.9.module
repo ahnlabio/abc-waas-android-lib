@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.ahnlab",
+    "module": "abcwaas",
+    "version": "0.1.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.ahnlab",
+          "module": "abcmpc",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "abcwaas-0.1.9.aar",
+          "url": "abcwaas-0.1.9.aar",
+          "size": 9113667,
+          "sha512": "27783168bc6b57aec0f37af11ec8ae4dfd164277d8423ff749f98c5fb63c5d91c0402374b770613773fb2fa438be0ce245d74f54e586cd77ec33c49d90738d45",
+          "sha256": "3dcbfbc099c76e94bc62327e7ef17ab547c4df1e585a28fe0c0a2fa5230302f9",
+          "sha1": "dbcdd07b7ce57cc8e6c3c7238c3c996c470b3c76",
+          "md5": "2eaf5f08ebb9cfaaf60ca723ff07b6cb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.ahnlab",
+          "module": "abcmpc",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "abcwaas-0.1.9.aar",
+          "url": "abcwaas-0.1.9.aar",
+          "size": 9113667,
+          "sha512": "27783168bc6b57aec0f37af11ec8ae4dfd164277d8423ff749f98c5fb63c5d91c0402374b770613773fb2fa438be0ce245d74f54e586cd77ec33c49d90738d45",
+          "sha256": "3dcbfbc099c76e94bc62327e7ef17ab547c4df1e585a28fe0c0a2fa5230302f9",
+          "sha1": "dbcdd07b7ce57cc8e6c3c7238c3c996c470b3c76",
+          "md5": "2eaf5f08ebb9cfaaf60ca723ff07b6cb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "abcwaas-0.1.9-sources.jar",
+          "url": "abcwaas-0.1.9-sources.jar",
+          "size": 7470,
+          "sha512": "cff38f60ccd36bbe4de6d8e6f9b770e2e4e073a582d63050ffd48a52255943319edff422ab31b40fbc368b6fdb77f0f96ab192899cff58c98e6bade5ef898ad8",
+          "sha256": "fe5f0c19e2ad29dbdd9c03d5062436e91add29d84480194dec3eb9ca4944fd50",
+          "sha1": "26794c5422f5fe50d6cf308df6bb09d17e2b2be8",
+          "md5": "b593b7164363504ea40608873a7d3085"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "abcwaas-0.1.9-javadoc.jar",
+          "url": "abcwaas-0.1.9-javadoc.jar",
+          "size": 383876,
+          "sha512": "d31712f1964853f4305d1aeab4a9baa67ace611d53c3f5313c1b848c6b4336f8684fb07e097084cfae654116878c189d7b371a4ff4354910933f5b5e3eebf8cf",
+          "sha256": "3e65c915c981393fb8c79f6673a375f70552dce3c78a1b64a307b7898f68d136",
+          "sha1": "e08cbcd42b34cd885ecf695e2c2f0b339ad048fd",
+          "md5": "d4c2d2b47d38952471bee5ad39829ac7"
+        }
+      ]
+    }
+  ]
+}
