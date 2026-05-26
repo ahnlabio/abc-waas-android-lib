@@ -3,8 +3,8 @@
   <groupId>io.ahnlab</groupId>
   <artifactId>abcwaas</artifactId>
   <versioning>
-    <latest>0.1.32</latest>
-    <release>0.1.32</release>
+    <latest>0.1.33</latest>
+    <release>0.1.33</release>
     <versions>
       <version>0.1.4</version>
       <version>0.1.5</version>
@@ -33,7 +33,8 @@
       <version>0.1.28</version>
       <version>0.1.29</version>
       <version>0.1.32</version>
+      <version>0.1.33</version>
     </versions>
-    <lastUpdated>20260526072400</lastUpdated>
+    <lastUpdated>20260527073000</lastUpdated>
   </versioning>
 </metadata>
